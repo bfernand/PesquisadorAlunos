@@ -13,7 +13,7 @@ namespace PesquisadorAlunos
         static void Main(string[] args)
         {
             IWebDriver driver = new FirefoxDriver();
-            const int idInicio = 0;
+            const int idInicio = 1;
             const int idFim = 1000;
 
             int id = idInicio;
